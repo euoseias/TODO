@@ -1,0 +1,235 @@
+table{
+ border-collapse: collapse;
+  width:50%;
+}
+
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.direita{
+    margin-top: -19px;
+    display: inline-block;
+	margin-left: 380px;
+	
+}
+.meio{
+	
+    display: inline-block;
+	margin-left:  100px; 
+}
+
+.button1{margin: 0 4px;}
+.button2{margin: 0 4px;}
+.button3{margin: 0 4px;}
+
+.button4{
+
+ 
+  background-color:#181824; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+   border-radius: 20px;
+}
+
+
+input[type=text], select {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-radius: 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+
+
+body {
+background-image: url(image1.jpg);
+      background-repeat: no-repeat;
+
+
+  background-color: #181824;
+  /*display: flex;*/
+  align-items: center;
+  justify-content: center;
+
+  /*height: 30vh;*/
+  margin:100px;
+  transition: background 0.2s linear;
+}
+
+body.dark{
+  background: #fafafa;
+  background-image: url(image2.jpg);
+  background-repeat: no-repeat;
+}
+
+
+
+.checkbox{
+  opacity: 0;
+  position: absolute;
+}
+
+.label{
+  background-color:#DCDCDC;
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 5px;
+  position: relative;
+  height: 10px;
+  width: 38px;
+  transform: scale(1.2);
+
+}
+
+
+.label .ball {
+  background-color: #fff;
+  border-radius: 50%;
+ position: absolute;
+  top: 2px;
+  left: 2px;
+  height: 15px;
+  width: 15px;
+  transform: translateX(0px);
+  transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .label .ball {
+  transform: translateX(24px);
+}
+
+.fa-moon {
+  color: #f1c40f;
+}
+
+.fa-sun {
+  color: #f39c12;
+}
+
+.mode{
+    margin-top: -19px;
+    display: inline-block;
+    margin-left: 760px;
+  
+}
+
+
+
+
+
+
+/*------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+    .centro2{
+       max-width: 550px;
+             padding: 40px 40px;
+
+color:white;
+             background-color:#25273c;  
+             /* just in case there no content*/
+             padding: 20px 25px 30px;
+             margin: 0 auto 25px;
+             margin-top: 30px;
+            /* shadows and rounded borders */
+             -moz-border-radius: 2px;
+             -webkit-border-radius: 2px;
+              border-radius: 2px;
+             -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+             -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+              box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    }
+    
+    .centro3{
+       max-width: 502px;
+             padding: 40px 40px;
+color:white;
+             background-color:#25273c;  
+             /* just in case there no content*/
+             padding: 20px 25px 30px;
+             margin: 0 auto 25px;
+             margin-top: 25px;
+            /* shadows and rounded borders */
+             -moz-border-radius: 2px;
+             -webkit-border-radius: 2px;
+             
+              border-radius: 2px;
+             -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+             -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+              box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    }
+
+    .centro4{
+       max-width: 500px;
+             padding: 40px 40px;
+height: -440000px;
+color:white;
+             background-color:#25273c;  
+             /* just in case there no content*/
+             padding: 20px 25px 30px;
+             margin: 0 auto 25px;
+             margin-top: -25px;
+            /* shadows and rounded borders */
+             -moz-border-radius: 2px;
+             -webkit-border-radius: 2px;
+             
+              border-radius: 2px;
+             -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+             -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+              box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    }
+
+    
+     h1{
+       max-width: 550px;
+             font-family:Arial;
+             letter-spacing: 10px;
+           color:white;
+   
+          /* just in case there no content*/
+          padding: 20px 25px 30px;
+          margin: 0 auto -45px;
+        margin-top: 60px;
+   
+    }
+
+
+    
+
+
+
+
+
+
+
+
